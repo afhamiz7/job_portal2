@@ -18,7 +18,7 @@ from django.urls import path,include
 
 urlpatterns = [
    
-    path('jseekers/',include('job_seekers.urls')),
+    path('',include('job_seekers.urls')),
     path('jbadmin/',include('job_admin.urls')),
     
 ]

@@ -5,7 +5,7 @@ app_name='jbskr'
 
 urlpatterns=[
 
-    path('login',views.user_login),
+    path('',views.user_login),
     path('jobsearch',views.search_job),
     path('jobdetails',views.details_job,name='jobdetails'),
     
