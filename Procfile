@@ -1,0 +1,1 @@
+web: gunicorn jb_portal.wsgi --log-file -
